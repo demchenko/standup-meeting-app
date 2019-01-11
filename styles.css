@@ -1,0 +1,9 @@
+.btn{ margin-top: 5px; margin-bottom: 5px; }
+.hidden{ display: none; }
+.standupAttendees{ margin-top: 15px; }
+.attendeeRow { border: 1px solid #bbbbbb;}
+
+.progress { width: 100%;}
+.progressBar, .progressBar-bad{ height: 60px; }
+.progressBar {background-color: #4CAF50;}
+.progressBar-bad{  background-color: #FF0000;}
