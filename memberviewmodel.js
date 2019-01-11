@@ -19,7 +19,7 @@ function Member(memberName){
         return "TIMES UP!";
       }
       else if (self.remainingTime() < -1){
-        return "OVERTIME: "+ self.remainingTime().toString() + " SECONDS";
+        return "OVERTIME: "+ moment.duration(self.remainingTime(), "seconds").format(MOMENTJS_DURATION_TIME_WITH_SECONDS_FORMAT, {trim: false});
       }
     }
   });
